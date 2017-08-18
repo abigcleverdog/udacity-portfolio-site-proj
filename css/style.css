@@ -1,0 +1,177 @@
+* {
+    font-family: Comic Sans MS, Sans-serif;
+}
+
+header {
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 4px;
+}
+
+#icon {
+    height: 73px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: #8bb4ed;
+    background-color: #ccc;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.1em;
+    color: #8bb4ed;
+}
+
+h3 {
+    margin: 0;
+    padding: 0.1em;
+}
+
+figure {
+    -webkit-margin-start: 10px;
+}
+
+figcaption {
+    font-size: .75em;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+aside {
+    padding: 0;
+    display: inline;
+    width: 15%;
+    margin-top: 75px;
+}
+
+.sub-title {
+    text-align: right;
+    margin: 0;
+    padding: 0.1em;
+    color: #9bc4fd;
+}
+
+.sec-title {
+    opacity: 0.5;
+}
+
+.bottom {
+    width: 33%;
+    min-width: 100px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+.bottom-sec {
+	margin-bottom: 20px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.sec-icon {
+    width: 100%;
+    max-height: 195px;
+    min-width: 195px;
+    max-width: 100%;
+}
+
+.sec-link {
+    font-size: 8px;
+}
+
+#header-text {
+    display: inline;
+    height: 0;
+}
+
+#home-img {
+    width: 100%;
+}
+
+.side-icon {
+    width: 100%;
+    min-width: 38px;
+    padding: 5px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+@media screen and (min-width: 376px) and (max-width: 640px) {
+    .sec-icon {
+    width: 100%;
+    height: 130px;
+    min-width: 125px;
+	}
+
+	.bottom {
+    width: 50%;
+    min-width: 144px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow-wrap: break-word;
+    padding-bottom: 20px;
+	}
+
+}
+
+@media screen and (min-width: 769px) {
+    .sec-icon {
+    width: 201px;
+    height: 201px;
+    min-width: 195px;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+    .sec-icon {
+    width: 55%;
+    height: 130px;
+    min-width: 125px;
+	}
+
+	.bottom {
+    width: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+    position: relative;
+    overflow-wrap: break-word;
+    padding-bottom: 20px;
+	}
+
+	h3 {
+    font-size: 16px;
+	}
+
+}
+
